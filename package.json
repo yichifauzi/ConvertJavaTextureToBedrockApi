@@ -1,5 +1,5 @@
 {
-  "name": "@ozelot379/convert-minecraft-java-texture-to-bedrock-api",
+  "name": "@modifiedcommand/convert-minecraft-java-texture-to-bedrock-api",
   "type": "module",
   "productName": "ConvertJavaTextureToBedrockApi",
   "version": "4.0.5",
@@ -12,18 +12,18 @@
     "Java",
     "Bedrock"
   ],
-  "author": "ozelot379",
+  "author": "modifiedcommand",
   "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ozelot379/ConvertJavaTextureToBedrockApi.git"
+    "url": "git+https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi.git"
   },
   "bugs": {
-    "url": "https://github.com/ozelot379/ConvertJavaTextureToBedrock/issues"
+    "url": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock/issues"
   },
-  "homepage": "https://github.com/ozelot379/ConvertJavaTextureToBedrockApi#readme",
+  "homepage": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi#readme",
   "dependencies": {
-    "@ozelot379/convert-base-api": "1.0.5",
+    "@geekcornernpm/convert-base-api": "1.0.6",
     "uuid": "3.4.0"
   },
   "devDependencies": {},
