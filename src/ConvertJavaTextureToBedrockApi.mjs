@@ -1,4 +1,4 @@
-import {AbstractBaseApi} from "@ozelot379/convert-base-api";
+import {AbstractBaseApi} from "@geekcornernpm/convert-base-api";
 import {converters} from "./converter/index.mjs";
 
 /**
