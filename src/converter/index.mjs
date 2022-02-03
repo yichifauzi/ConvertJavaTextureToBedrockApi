@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@ozelot379/convert-base-api";
+import {AbstractConverter} from "@geekcornernpm/convert-base-api";
 import {ArrowConverter} from "./ArrowConverter.mjs";
 import {AtlasConverter} from "./AtlasConverter.mjs";
 import {BannerPatternConverter} from "./BannerPatternConverter.mjs";
