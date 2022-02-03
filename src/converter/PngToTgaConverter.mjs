@@ -1,6 +1,6 @@
-import {AbstractConverter} from "@ozelot379/convert-base-api";
+import {AbstractConverter} from "@geekcornernpm/convert-base-api";
 import {DeleteConverter} from "./DeleteConverter.mjs";
-import Jimp from "@ozelot379/jimp-plugins";
+import Jimp from "@geekcornernpm/jimp-plugins";
 
 /**
  * Class PngToTgaConverter
