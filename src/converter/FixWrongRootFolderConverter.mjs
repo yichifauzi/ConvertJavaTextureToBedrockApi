@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@ozelot379/convert-base-api";
+import {AbstractConverter} from "@geekcornernpm/convert-base-api";
 
 /**
  * Class FixWrongRootFolderConverter
