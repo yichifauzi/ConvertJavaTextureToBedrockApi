@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@ozelot379/convert-base-api";
-import Jimp from "@ozelot379/jimp-plugins";
+import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import Jimp from "@geekcornernpm/jimp-plugins";
 
 /**
  * Class MapIconsConverter
