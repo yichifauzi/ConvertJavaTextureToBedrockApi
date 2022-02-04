@@ -1,23 +1,32 @@
 # Changelog
 
-## [4.0.5]
+## [[v4.0.8]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.8)
+- Allow pack version 8 for easy conversion for vanilla tweaks.
+
+## [[v4.0.7]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.7)
+- Rename all converter files from `ozelot379` to `geekcornernpm`
+
+## [[4.0.6]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.6)
+- Update `packages.json`
+
+## [[4.0.5]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.5)
 - Set alpha to `2` in `OverlayToTranslateConverter` 
 - Auto publish to npm
 
-## [4.0.4]
+## [[4.0.4]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.4)
 - Auto publish to npm
 
-## [4.0.3]
+## [[4.0.3]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.3)
 - Log warn logs occurred count
 - Mark warning logs yellow
 
-## [4.0.2]
+## [[4.0.2]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.2)
 - Downgrade dependencies because broken with webpack
 
-## [4.0.1]
+## [[4.0.1]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.1)
 - Fix `pack_format` `6`
 
-## [4.0.0]
+## [[4.0.0]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.0)
 - Remove convert piglin
 - Fix banner pattern black
 - Fix banner pattern preview max size
@@ -25,41 +34,41 @@
 - Warn for partially missing sprite images (For instance banner pattern, painting and particle), because may they will be transparent in the result
 - Separate base api
 
-## [3.6.1]
+## [[3.6.1]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.6.1)
 - Fix root folder in sub folder in some wrong texture packs
 - Fix rename files in local folder to not exists folder
 
-## [3.6.0]
+## [[3.6.0]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.6.0)
 - Convert new v1.16 textures
 - Convert wither armor texture
 - Fix spawn egg mask texture
 
-## [3.5.1]
+## [[3.5.1]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.5.1)
 - Fix conduit textures
 
-## [3.5.0]
+## [[3.5.0]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.5.0)
 - Convert dolphin texture
 
-## [3.4.1]
+## [[3.4.1]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.4.1)
 - "ES module"
 - Docker images
 
-## [3.3.4]
+## [[3.3.4]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.3.4)
 - Some minor changes
 - Restore CLI
 
-## [3.3.3]
+## [[3.3.3]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.3.3)
 - Improve selected hotbar slot (if not transparent)
 - Update readme
 - Remove unnecessary build from api and some minor changes
 
-## [3.3.2]
+## [[3.3.2]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.3.2)
 - Update readme
 
-## [3.3.1]
+## [[3.3.1]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.3.1)
 - Split in separate repos
 
-## [3.3.0]
+## [[3.3.0]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v3.3.0)
 - Split in separate repos
 
 ## [3.2.8]
