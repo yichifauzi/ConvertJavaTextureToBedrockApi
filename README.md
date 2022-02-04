@@ -6,25 +6,26 @@ THIS PROJECT IS NO OFFICIAL MINECRAFT PRODUCT - NOT AUTHORIZED OR ASSOCIATED BY 
 
 ## Description
 
-Look at https://github.com/ozelot379/ConvertJavaTextureToBedrock#user-content-description
+It supports the follow Minecraft versions:
+
+| Minecraft | Version |
+|-----------|---------|
+| Java | v1.13.x, v1.14.x, v1.15.x or v1.16.x |
+| Bedrock | >= v1.16.20 |
 
 ## Requirements
-
-This is an "ES module"
-
-So it requires a current web browser or NodeJS v14
-
-If you need older support, please try to use something like `webpack` or `babel`
+* This is an "ES module".
+* So it requires a current web browser or NodeJS v14.
+* If you need older support, please try to use something like `webpack` or `babel`
 
 ## Use it direct in your code
-
-Add it as a dependency to your `package.json`
+* Add it as a dependency to your `package.json`
 
 ```bash
-yarn add @ozelot379/convert-minecraft-java-texture-to-bedrock-api
+yarn add github:ModifiedCommand/ConvertJavaTextureToBedrockApi
 ```
 
-You can convert your texture packs like
+* You can convert your texture packs like
 
 ```javascript
 import {ConsoleLog, Input, LocalFileInputEntry, LocalFileOutput} from "@ozelot379/convert-base-api";
@@ -45,41 +46,29 @@ import {ConvertJavaTextureToBedrockApi} from "@ozelot379/convert-minecraft-java-
 })();
 ```
 
-More infos at https://github.com/ozelot379/ConvertBaseApi#user-content-description 
-
 ## Extras (for texture pack creators)
 
 ### UUID
-
-You can create the `bedrock_uuid_header` and `bedrock_uuid_module` files in your input, to keep the same uuid on repeating conversions - otherwise, random uuids are generated each time and you need to reselect the texture pack again in the game
+* You can create the `bedrock_uuid_header` and `bedrock_uuid_module` files in your input, to keep the same uuid on repeating conversions - otherwise, random uuids are generated each time and you need to reselect the texture pack again in the game
 
 ### Custom textures
-
-You can put custom textures in a `bedrock_textures` folder in your input
-
-For instance for textures, that can not be converted or are not converted correctly
-
-This files are applied additionally before output
+* You can put custom textures in a `bedrock_textures` folder in your input.
+* For instance for textures, that can not be converted or are not converted correctly.
+* This files are applied additionally before output
 
 ## How this work
 
 This project uses the follow main features or external libraries:
 
-- [Web Worker](https://developer.mozilla.org/docs/Web/API/Web_Workers_API) for convert it in the background to not freeze the browser ui (Web app)
-- [jszip](https://www.npmjs.com/package/jszip) for read, modify and write zip files
-- [jimp](https://www.npmjs.com/package/jimp) for graphic manipulation
-- [file-saver](https://www.npmjs.com/package/file-saver) for deliver the converted pack to download (Web app)
-- [webpack](https://www.npmjs.com/package/webpack) for bundle the dist code (Web app)
-- [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) for offline cache and usage (Web app)
+* [Web Worker](https://developer.mozilla.org/docs/Web/API/Web_Workers_API) for convert it in the background to not freeze the browser ui (Web app)
+* [jszip](https://www.npmjs.com/package/jszip) for read, modify and write zip files
+* [jimp](https://www.npmjs.com/package/jimp) for graphic manipulation
+* [file-saver](https://www.npmjs.com/package/file-saver) for deliver the converted pack to download (Web app)
+* [webpack](https://www.npmjs.com/package/webpack) for bundle the dist code (Web app)
+* [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) for offline cache and usage (Web app)
 
 ## Web app
-
-Look at https://github.com/ozelot379/ConvertJavaTextureToBedrock
-
-## CLI
-
-Look at https://github.com/ozelot379/ConvertJavaTextureToBedrockCli
+* Look at the [Source Code](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock) or [Webapp](https://modifiedcommand.github.io/ConvertJavaTextureToBedrock/)
 
 ## Report issue
-
-Use github repo issues (https://github.com/ozelot379/ConvertJavaTextureToBedrock/issues/new/choose)
+* Use [GitHub issues](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock/issues/new/choose
