@@ -2,7 +2,7 @@
   "name": "@modifiedcommand/convert-minecraft-java-texture-to-bedrock-api",
   "type": "module",
   "productName": "ConvertJavaTextureToBedrockApi",
-  "version": "4.0.6",
+  "version": "4.0.8",
   "description": "API for convert Minecraft Java texture packs to Bedrock texture packs",
   "keywords": [
     "Minecraft",
@@ -29,6 +29,9 @@
   "devDependencies": {},
   "engines": {
     "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "main": "src/index.mjs"
 }
