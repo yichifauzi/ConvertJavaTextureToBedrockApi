@@ -28,8 +28,8 @@ yarn add github:ModifiedCommand/ConvertJavaTextureToBedrockApi
 * You can convert your texture packs like
 
 ```javascript
-import {ConsoleLog, Input, LocalFileInputEntry, LocalFileOutput} from "@ozelot379/convert-base-api";
-import {ConvertJavaTextureToBedrockApi} from "@ozelot379/convert-minecraft-java-texture-to-bedrock-api";
+import {ConsoleLog, Input, LocalFileInputEntry, LocalFileOutput} from "@geekcornernpm/convert-base-api";
+import {ConvertJavaTextureToBedrockApi} from "@geekcornernpm/convert-minecraft-java-texture-to-bedrock-api";
 
 (async () => {
     let output;
