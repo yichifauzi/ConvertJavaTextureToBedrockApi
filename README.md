@@ -71,4 +71,4 @@ This project uses the follow main features or external libraries:
 * Look at the [Source Code](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock) or [Webapp](https://modifiedcommand.github.io/ConvertJavaTextureToBedrock/)
 
 ## Report issue
-* Use [GitHub issues](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock/issues/new/choose
+* Use [GitHub issues](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock/issues/new/choose)
