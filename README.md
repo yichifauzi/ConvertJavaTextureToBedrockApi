@@ -25,6 +25,12 @@ It supports the follow Minecraft versions:
 yarn add github:ModifiedCommand/ConvertJavaTextureToBedrockApi
 ```
 
+or
+
+```bash
+yarn add @modifiedcommand/convert-minecraft-java-texture-to-bedrock-api
+```
+
 * You can convert your texture packs like
 
 ```javascript
