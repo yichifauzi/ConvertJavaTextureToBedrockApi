@@ -20,6 +20,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
           scope: "@modifiedcommand"
       - name: Publish
-        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc && yarn publish --access public 
+        run: yarn publish --access public 
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
