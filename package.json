@@ -1,37 +1,34 @@
 {
-  "name": "@modifiedcommand/convert-minecraft-java-texture-to-bedrock-api",
-  "type": "module",
-  "productName": "ConvertJavaTextureToBedrockApi",
-  "version": "4.0.8",
-  "description": "API for convert Minecraft Java texture packs to Bedrock texture packs",
-  "keywords": [
-    "Minecraft",
-    "Texture",
-    "Pack",
-    "Convert",
-    "Java",
-    "Bedrock"
-  ],
-  "author": "modifiedcommand",
-  "license": "GPL-3.0-only",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock/issues"
-  },
-  "homepage": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi#readme",
-  "dependencies": {
-    "@geekcornernpm/convert-base-api": "1.0.6",
-    "uuid": "3.4.0"
-  },
-  "devDependencies": {},
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
-  "main": "src/index.mjs"
+    "name": "@modifiedcommand/convert-minecraft-java-texture-to-bedrock-api",
+    "type": "module",
+    "productName": "ConvertJavaTextureToBedrockApi",
+    "version": "4.0.11",
+    "description": "API for convert Minecraft Java texture packs to Bedrock texture packs",
+    "keywords": [
+        "Minecraft",
+        "Texture",
+        "Pack",
+        "Convert",
+        "Java",
+        "Bedrock"
+    ],
+    "author": "modifiedcommand",
+    "license": "GPL-3.0-only",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock/issues"
+    },
+    "homepage": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi#readme",
+    "dependencies": {
+        "@geekcornernpm/convert-base-api": "1.0.6",
+        "uuid": "3.4.0"
+    },
+    "devDependencies": {},
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "main": "src/index.mjs"
 }
