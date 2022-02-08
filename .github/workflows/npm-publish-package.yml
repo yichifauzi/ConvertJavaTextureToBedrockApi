@@ -6,6 +6,7 @@ on:
 
 jobs:
   publish-yarn:
+    environment: publish-package
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -18,6 +19,7 @@ jobs:
           node-version: "14.x"
           registry-url: "https://registry.npmjs.org"
           scope: "@modifiedcommand"
-      - run: yarn publish --access public
+      - name: Publish
+        run: yarn publish --access public 
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPMTOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
