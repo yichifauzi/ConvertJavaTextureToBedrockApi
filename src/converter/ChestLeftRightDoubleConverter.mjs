@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 
 /**
  * Class ChestLeftRightDoubleConverter
@@ -83,4 +83,4 @@ class ChestLeftRightDoubleConverter extends AbstractConverter {
     }
 }
 
-export {ChestLeftRightDoubleConverter};
+export { ChestLeftRightDoubleConverter };

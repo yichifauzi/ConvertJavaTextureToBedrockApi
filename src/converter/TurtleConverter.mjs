@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class TurtleConverter
@@ -39,4 +39,4 @@ class TurtleConverter extends AbstractConverter {
     }
 }
 
-export {TurtleConverter};
+export { TurtleConverter };

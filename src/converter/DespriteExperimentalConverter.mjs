@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class DespriteExperimentalConverter
@@ -52,8 +52,7 @@ class DespriteExperimentalConverter extends AbstractConverter {
         return [
             [
                 "textures/gui/recipe_book.png",
-                256,
-                [
+                256, [
                     [152, 41, 26, 16, "textures/ui/craft_toggle_off.png"],
                     [152, 59, 26, 16, "textures/ui/craft_toggle_off_hover.png"],
                     [180, 41, 26, 16, "textures/ui/craft_toggle_on.png"],
@@ -62,16 +61,14 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/widgets.png",
-                256,
-                [
+                256, [
                     [0, 22, 24, 24, "textures/ui/pocket_ui_highlight_selected_slot.png", null, [4, 4, 16, 16]],
                     [0, 22, 24, 24, "textures/ui/pocket_ui_highlight_slot.png", null, [4, 4, 16, 16]]
                 ]
             ],
             [
                 "textures/gui/container/anvil.png",
-                256,
-                [
+                256, [
                     [99, 45, 22, 15, "textures/ui/arrow_large.png"],
                     [17, 7, 30, 30, "textures/ui/anvil_icon.png"],
                     [53, 49, 13, 13, "textures/ui/anvil-plus.png"],
@@ -80,8 +77,7 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/beacon.png",
-                256,
-                [
+                256, [
                     [58, 108, 5, 18, "textures/ui/beacon_item_seperator_pocket.png"],
                     [58, 108, 5, 18, "textures/ui/item_seperator.png"],
                     [18, 22, 19, 22, "textures/ui/pyramid_level_1.png"],
@@ -94,8 +90,7 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/brewing_stand.png",
-                256,
-                [
+                256, [
                     [17, 17, 16, 16, "textures/ui/brewing_fuel_empty.png"],
                     [56, 51, 16, 16, "textures/ui/bottle_empty.png"],
                     [60, 43, 19, 6, "textures/ui/brewing_fuel_bar_empty.png"],
@@ -113,8 +108,7 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/enchanting_table.png",
-                256,
-                [
+                256, [
                     [35, 47, 16, 16, "textures/ui/lapis.png"],
                     [35, 47, 16, 16, "textures/ui/lapis_image.png"],
                     [3, 225, 13, 11, "textures/ui/dust_selectable_1.png"],
@@ -127,8 +121,7 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/furnace.png",
-                256,
-                [
+                256, [
                     [79, 35, 24, 17, "textures/ui/arrow_inactive.png"],
                     [176, 14, 24, 17, "textures/ui/arrow_active.png"],
                     [56, 36, 14, 14, "textures/ui/flame_empty_image.png"],
@@ -137,8 +130,7 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/horse.png",
-                256,
-                [
+                256, [
                     [1, 221, 16, 16, "textures/ui/empty_horse_slot_armor.png"],
                     [19, 221, 16, 16, "textures/ui/empty_horse_slot_saddle.png"],
                     [37, 221, 16, 16, "textures/ui/empty_llama_slot_carpet.png"]
@@ -146,15 +138,13 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/inventory.png",
-                256,
-                [
+                256, [
                     [135, 29, 16, 13, "textures/ui/arrow.png"]
                 ]
             ],
             [
                 "textures/gui/container/loom.png",
-                256,
-                [
+                256, [
                     [176, 0, 16, 16, "textures/ui/loom_banner_empty.png", [13, 26, 16, 16]],
                     [192, 0, 16, 16, "textures/ui/loom_dye_empty.png", [33, 26, 16, 16]],
                     [208, 0, 16, 16, "textures/ui/loom_pattern_item_empty.png", [23, 45, 16, 16]]
@@ -162,8 +152,7 @@ class DespriteExperimentalConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/smithing.png",
-                256,
-                [
+                256, [
                     [17, 7, 30, 30, "textures/ui/smithing_icon.png"],
                     [53, 49, 13, 13, "textures/ui/smithing-table-plus.png"],
                     [76, 47, 16, 16, "textures/ui/ingot_image.png"]
@@ -173,4 +162,4 @@ class DespriteExperimentalConverter extends AbstractConverter {
     }
 }
 
-export {DespriteExperimentalConverter};
+export { DespriteExperimentalConverter };

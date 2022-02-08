@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class DolphinConverter
@@ -78,4 +78,4 @@ class DolphinConverter extends AbstractConverter {
     }
 }
 
-export {DolphinConverter};
+export { DolphinConverter };

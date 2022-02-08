@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class ChestSideConverter
@@ -44,4 +44,4 @@ class ChestSideConverter extends AbstractConverter {
     }
 }
 
-export {ChestSideConverter};
+export { ChestSideConverter };

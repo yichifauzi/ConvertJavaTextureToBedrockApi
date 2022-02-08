@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class FireworksConverter
@@ -39,4 +39,4 @@ class FireworksConverter extends AbstractConverter {
     }
 }
 
-export {FireworksConverter};
+export { FireworksConverter };

@@ -23,13 +23,15 @@
     },
     "homepage": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi#readme",
     "dependencies": {
-        "@geekcornernpm/convert-base-api": "1.0.6",
+        "@modifiedcommand/convert-base-api": "^1.0.7",
         "uuid": "3.4.0"
     },
     "devDependencies": {},
     "engines": {
         "node": ">=14.0.0"
     },
-    "publishConfig": { "registry": "https://registry.npmjs.org" },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
     "main": "src/index.mjs"
 }

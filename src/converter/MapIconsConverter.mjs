@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 import Jimp from "@geekcornernpm/jimp-plugins";
 
 /**
@@ -58,4 +58,4 @@ class MapIconsConverter extends AbstractConverter {
     }
 }
 
-export {MapIconsConverter};
+export { MapIconsConverter };

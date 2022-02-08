@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class DeleteConverter
@@ -45,4 +45,4 @@ class DeleteConverter extends AbstractConverter {
     }
 }
 
-export {DeleteConverter};
+export { DeleteConverter };

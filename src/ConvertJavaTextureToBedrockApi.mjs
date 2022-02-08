@@ -1,5 +1,5 @@
-import {AbstractBaseApi} from "@geekcornernpm/convert-base-api";
-import {converters} from "./converter/index.mjs";
+import { AbstractBaseApi } from "@modifiedcommand/convert-base-api";
+import { converters } from "./converter/index.mjs";
 
 /**
  * Class ConvertJavaTextureToBedrockApi
@@ -28,4 +28,4 @@ class ConvertJavaTextureToBedrockApi extends AbstractBaseApi {
     }
 }
 
-export {ConvertJavaTextureToBedrockApi};
+export { ConvertJavaTextureToBedrockApi };

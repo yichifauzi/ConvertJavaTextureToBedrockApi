@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class BarConverter
@@ -52,8 +52,7 @@ class BarConverter extends AbstractConverter {
         return [
             [
                 "textures/gui/icons.png",
-                256,
-                [
+                256, [
                     [64, [
                         ["textures/gui/achievements/hotdogempty"],
                         ["textures/ui/empty_progress_bar"],
@@ -83,4 +82,4 @@ class BarConverter extends AbstractConverter {
     }
 }
 
-export {BarConverter};
+export { BarConverter };

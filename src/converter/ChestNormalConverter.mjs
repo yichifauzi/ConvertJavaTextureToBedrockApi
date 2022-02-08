@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {MetadataConverter} from "./MetadataConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { MetadataConverter } from "./MetadataConverter.mjs";
 
 /**
  * Class ChestNormalConverter
@@ -73,4 +73,4 @@ class ChestNormalConverter extends AbstractConverter {
     }
 }
 
-export {ChestNormalConverter};
+export { ChestNormalConverter };

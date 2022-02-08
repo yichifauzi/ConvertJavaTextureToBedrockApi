@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class CopyConverter
@@ -94,4 +94,4 @@ class CopyConverter extends AbstractConverter {
     }
 }
 
-export {CopyConverter};
+export { CopyConverter };

@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 
 /**
  * Class AtlasConverter
@@ -53,4 +53,4 @@ class AtlasConverter extends AbstractConverter {
     }
 }
 
-export {AtlasConverter};
+export { AtlasConverter };

@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {MetadataConverter} from "./MetadataConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { MetadataConverter } from "./MetadataConverter.mjs";
 
 /**
  * Class PlaceholderConverter
@@ -30,12 +30,13 @@ class PlaceholderConverter extends AbstractConverter {
         image.crop((x * factor), (y * factor), (width * factor), (height * factor));
 
         switch (square_mode) {
-            case 1: {
-                // Left top
-                const size = Math.max(width, height);
+            case 1:
+                {
+                    // Left top
+                    const size = Math.max(width, height);
 
-                image = (await this.createImage((size * factor), (size * factor))).composite(image, 0, 0);
-            }
+                    image = (await this.createImage((size * factor), (size * factor))).composite(image, 0, 0);
+                }
                 break;
 
             case 2:
@@ -43,12 +44,13 @@ class PlaceholderConverter extends AbstractConverter {
                 break;
 
             case 0:
-            default: {
-                // Center
-                const size = Math.max(width, height);
+            default:
+                {
+                    // Center
+                    const size = Math.max(width, height);
 
-                image = (await this.createImage((size * factor), (size * factor))).composite(image, (((size * factor) - (width * factor)) / 2), (((size * factor) - (height * factor)) / 2));
-            }
+                    image = (await this.createImage((size * factor), (size * factor))).composite(image, (((size * factor) - (width * factor)) / 2), (((size * factor) - (height * factor)) / 2));
+                }
                 break;
         }
 
@@ -145,4 +147,4 @@ class PlaceholderConverter extends AbstractConverter {
     }
 }
 
-export {PlaceholderConverter};
+export { PlaceholderConverter };

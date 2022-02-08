@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class FishHookConverter
@@ -65,4 +65,4 @@ class FishHookConverter extends AbstractConverter {
     }
 }
 
-export {FishHookConverter};
+export { FishHookConverter };

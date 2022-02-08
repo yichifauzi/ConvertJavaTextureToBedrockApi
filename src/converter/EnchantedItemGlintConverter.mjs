@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {MetadataConverter} from "./MetadataConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { MetadataConverter } from "./MetadataConverter.mjs";
 
 /**
  * Class EnchantedItemGlintConverter
@@ -45,4 +45,4 @@ class EnchantedItemGlintConverter extends AbstractConverter {
     }
 }
 
-export {EnchantedItemGlintConverter};
+export { EnchantedItemGlintConverter };

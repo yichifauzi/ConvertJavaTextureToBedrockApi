@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 import Jimp from "@geekcornernpm/jimp-plugins";
 
 /**
@@ -53,4 +53,4 @@ class WeatherConverter extends AbstractConverter {
     }
 }
 
-export {WeatherConverter};
+export { WeatherConverter };

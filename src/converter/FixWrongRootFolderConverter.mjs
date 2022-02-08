@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class FixWrongRootFolderConverter
@@ -23,7 +23,7 @@ class FixWrongRootFolderConverter extends AbstractConverter {
 
         this.log.log(`Root folder found in sub folder ${path}`);
 
-        for (const file of [pack_mcmeta, ...others]) {
+        for (const file of[pack_mcmeta, ...others]) {
             if (await this.output.exists(`${path}/${file}`)) {
                 await this.output.rename(`${path}/${file}`, `${file}`);
             }
@@ -42,4 +42,4 @@ class FixWrongRootFolderConverter extends AbstractConverter {
     }
 }
 
-export {FixWrongRootFolderConverter};
+export { FixWrongRootFolderConverter };

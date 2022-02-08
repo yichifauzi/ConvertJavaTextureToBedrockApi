@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 import Jimp from "@geekcornernpm/jimp-plugins";
 
 /**
@@ -189,4 +189,4 @@ class PngToTgaConverter extends AbstractConverter {
     }
 }
 
-export {PngToTgaConverter};
+export { PngToTgaConverter };

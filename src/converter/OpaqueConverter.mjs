@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class OpaqueConverter
@@ -48,4 +48,4 @@ class OpaqueConverter extends AbstractConverter {
     }
 }
 
-export {OpaqueConverter};
+export { OpaqueConverter };

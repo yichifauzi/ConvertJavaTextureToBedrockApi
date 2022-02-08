@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 
 /**
  * Class OverlayToTranslateConverter
@@ -90,4 +90,4 @@ class OverlayToTranslateConverter extends AbstractConverter {
     }
 }
 
-export {OverlayToTranslateConverter};
+export { OverlayToTranslateConverter };

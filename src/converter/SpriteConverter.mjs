@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 import Jimp from "@geekcornernpm/jimp-plugins";
 
 /**
@@ -46,7 +46,7 @@ class SpriteConverter extends AbstractConverter {
 
             const image_sprited_scaled = image_sprite.scale(((factor_detect * factor) / image_sprite.getWidth()), Jimp.RESIZE_NEAREST_NEIGHBOR);
 
-            image.fillArea((x * factor), (y * factor), image_sprited_scaled.getWidth(), image_sprited_scaled.getHeight(), [0, 0, 0, 0]);  // Delete previous area, if the sprite already exists
+            image.fillArea((x * factor), (y * factor), image_sprited_scaled.getWidth(), image_sprited_scaled.getHeight(), [0, 0, 0, 0]); // Delete previous area, if the sprite already exists
             image.composite(image_sprited_scaled, (x * factor), (y * factor));
 
             to_delete.push(new DeleteConverter(sprite));
@@ -260,7 +260,7 @@ class SpriteConverter extends AbstractConverter {
                 ["textures/particle/sga_x.png", 64, 120, 8],
                 ["textures/particle/sga_y.png", 72, 120, 8],
                 ["textures/particle/sga_z.png", 80, 120, 8]
-            ], "textures/particle/particles.png", 4 /* Needs a minimal 4x factor because the explosion images are bigger than the others */], // 1.14
+            ], "textures/particle/particles.png", 4 /* Needs a minimal 4x factor because the explosion images are bigger than the others */ ], // 1.14
             [16, 192, [
                 ["textures/particle/big_smoke_0.png", 0, 0, 16],
                 ["textures/particle/big_smoke_1.png", 0, 16, 16],
@@ -292,4 +292,4 @@ class SpriteConverter extends AbstractConverter {
     }
 }
 
-export {SpriteConverter};
+export { SpriteConverter };

@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 import Jimp from "@geekcornernpm/jimp-plugins";
 
 /**
@@ -71,27 +71,29 @@ class DialogConverter extends AbstractConverter {
     static get DEFAULT_CONVERTER_DATA() {
         return [
             ["textures/gui/container/generic_54.png",
-                256,
-                [
-                    [0, 0, 176, 222, [7, 17, 7, 7], [
-                        ["textures/ui/achievements_dialog", [6, 20, 6, 6]],
-                        ["textures/ui/dialog_background_hollow_1", [8, 23, 8, 76]],
-                        ["textures/ui/dialog_background_hollow_2", [8, 23, 8, 42]],
-                        ["textures/ui/dialog_background_hollow_3", [8, 23, 8, 8]],
-                        ["textures/ui/dialog_background_hollow_4", [8, 8, 8, 8]],
-                        ["textures/ui/dialog_background_hollow_4_thin", [6, 6, 6, 6]],
-                        ["textures/ui/dialog_background_hollow_5", [8, 17, 8, 42]],
-                        ["textures/ui/dialog_background_hollow_6", [8, 23, 8, 104]],
-                        ["textures/ui/dialog_background_hollow_7", [8, 66, 8, 8]],
-                        ["textures/ui/dialog_background_hollow_8", [8, 8, 33, 33]],
-                        ["textures/ui/dialog_background_opaque", [4, 4, 4, 4]],
-                        ["textures/ui/dialog_background_opaque_overlap_bottom", [4, 4, 4, 4]],
-                        ["textures/ui/menubackground", [4, 4, 4, 4]],
-                        ["textures/ui/thin_dialog", [5, 5, 5, 5]]
-                    ]]
-                ]]
+                256, [
+                    [0, 0, 176, 222, [7, 17, 7, 7],
+                        [
+                            ["textures/ui/achievements_dialog", [6, 20, 6, 6]],
+                            ["textures/ui/dialog_background_hollow_1", [8, 23, 8, 76]],
+                            ["textures/ui/dialog_background_hollow_2", [8, 23, 8, 42]],
+                            ["textures/ui/dialog_background_hollow_3", [8, 23, 8, 8]],
+                            ["textures/ui/dialog_background_hollow_4", [8, 8, 8, 8]],
+                            ["textures/ui/dialog_background_hollow_4_thin", [6, 6, 6, 6]],
+                            ["textures/ui/dialog_background_hollow_5", [8, 17, 8, 42]],
+                            ["textures/ui/dialog_background_hollow_6", [8, 23, 8, 104]],
+                            ["textures/ui/dialog_background_hollow_7", [8, 66, 8, 8]],
+                            ["textures/ui/dialog_background_hollow_8", [8, 8, 33, 33]],
+                            ["textures/ui/dialog_background_opaque", [4, 4, 4, 4]],
+                            ["textures/ui/dialog_background_opaque_overlap_bottom", [4, 4, 4, 4]],
+                            ["textures/ui/menubackground", [4, 4, 4, 4]],
+                            ["textures/ui/thin_dialog", [5, 5, 5, 5]]
+                        ]
+                    ]
+                ]
+            ]
         ];
     }
 }
 
-export {DialogConverter};
+export { DialogConverter };

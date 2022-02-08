@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class WaterConverter
@@ -42,4 +42,4 @@ class WaterConverter extends AbstractConverter {
     }
 }
 
-export {WaterConverter};
+export { WaterConverter };

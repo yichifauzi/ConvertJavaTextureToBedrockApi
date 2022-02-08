@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class BannerPatternPreviewMaxSizeConverter
@@ -74,4 +74,4 @@ class BannerPatternPreviewMaxSizeConverter extends AbstractConverter {
     }
 }
 
-export {BannerPatternPreviewMaxSizeConverter};
+export { BannerPatternPreviewMaxSizeConverter };

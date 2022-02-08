@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class HorseConverter
@@ -215,4 +215,4 @@ class HorseConverter extends AbstractConverter {
     }
 }
 
-export {HorseConverter};
+export { HorseConverter };

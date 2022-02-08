@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 import v4 from "uuid/v4.js";
 
 /**
@@ -53,14 +53,12 @@ class MetadataConverter extends AbstractConverter {
                 "uuid": uuid_header,
                 "version": [0, 0, 1]
             },
-            "modules": [
-                {
-                    "description": MetadataConverter.mcmeta.pack.description,
-                    "type": "resources",
-                    "uuid": uuid_module,
-                    "version": [0, 0, 1]
-                }
-            ]
+            "modules": [{
+                "description": MetadataConverter.mcmeta.pack.description,
+                "type": "resources",
+                "uuid": uuid_module,
+                "version": [0, 0, 1]
+            }]
         };
 
         await this.writeJson(to, manifest);
@@ -85,4 +83,4 @@ class MetadataConverter extends AbstractConverter {
  */
 MetadataConverter.mcmeta = null;
 
-export {MetadataConverter};
+export { MetadataConverter };

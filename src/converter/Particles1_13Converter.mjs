@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class Particles1_13Converter
@@ -35,4 +35,4 @@ class Particles1_13Converter extends AbstractConverter {
     }
 }
 
-export {Particles1_13Converter};
+export { Particles1_13Converter };

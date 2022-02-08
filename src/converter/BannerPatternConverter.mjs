@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class BannerPatternConverter
@@ -71,4 +71,4 @@ class BannerPatternConverter extends AbstractConverter {
     }
 }
 
-export {BannerPatternConverter};
+export { BannerPatternConverter };

@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class NineSliceConverter
@@ -68,8 +68,7 @@ class NineSliceConverter extends AbstractConverter {
         return [
             [
                 "textures/gui/recipe_book.png",
-                256,
-                [
+                256, [
                     [54, 206, 24, 24, 5, [
                         "textures/ui/cell_image_red",
                         "textures/ui/recipe_book_red_button",
@@ -82,8 +81,7 @@ class NineSliceConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/widgets.png",
-                256,
-                [
+                256, [
                     [0, 46, 200, 20, 5, [
                         "textures/ui/button_borderless_darkpressednohover",
                         "textures/ui/button_borderless_lightpressednohover",
@@ -125,8 +123,7 @@ class NineSliceConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/beacon.png",
-                256,
-                [
+                256, [
                     [0, 219, 22, 22, 5, [
                         "textures/ui/beacon_button_default"
                     ]],
@@ -144,8 +141,7 @@ class NineSliceConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/enchanting_table.png",
-                256,
-                [
+                256, [
                     [0, 166, 108, 19, 5, [
                         "textures/ui/enchanting_active_background"
                     ]],
@@ -160,8 +156,7 @@ class NineSliceConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/generic_54.png",
-                256,
-                [
+                256, [
                     [7, 17, 18, 18, 5, [
                         "textures/ui/cell_image",
                         "textures/ui/cell_image_normal",
@@ -187,8 +182,7 @@ class NineSliceConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/inventory.png",
-                256,
-                [
+                256, [
                     [25, 7, 51, 72, 5, [
                         "textures/ui/player_preview_border"
                     ]]
@@ -197,8 +191,7 @@ class NineSliceConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/creative_inventory/tab_item_search.png",
-                256,
-                [
+                256, [
                     [80, 4, 90, 12, 5, [
                         "textures/ui/edit_box_indent",
                         "textures/ui/edit_box_indent_hover"
@@ -208,8 +201,7 @@ class NineSliceConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/creative_inventory/tabs.png",
-                256,
-                [
+                256, [
                     [0, 0, 28, 32, 5, [
                         "textures/ui/pocket_tab_left_side",
                         "textures/ui/recipe_book_side_toggle_dark",
@@ -256,4 +248,4 @@ class NineSliceConverter extends AbstractConverter {
     }
 }
 
-export {NineSliceConverter};
+export { NineSliceConverter };

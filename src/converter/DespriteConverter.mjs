@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class DespriteConverter
@@ -42,15 +42,13 @@ class DespriteConverter extends AbstractConverter {
         return [
             [
                 "textures/gui/recipe_button.png",
-                256,
-                [
+                256, [
                     [0, 0, 20, 18, "textures/ui/recipe_book_icon.png"]
                 ]
             ],
             [
                 "textures/gui/widgets.png",
-                256,
-                [
+                256, [
                     [0, 0, 1, 22, "textures/ui/hotbar_start_cap.png"],
                     [1, 0, 20, 22, "textures/ui/hotbar_0.png"],
                     [21, 0, 20, 22, "textures/ui/hotbar_1.png"],
@@ -67,8 +65,7 @@ class DespriteConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/cartography_table.png",
-                256,
-                [
+                256, [
                     [176, 0, 66, 66, "textures/ui/cartography_table_map.png"],
                     [176, 66, 66, 66, "textures/ui/cartography_table_zoom.png"],
                     [176, 132, 50, 50, "textures/ui/cartography_table_copy.png"],
@@ -77,8 +74,7 @@ class DespriteConverter extends AbstractConverter {
             ],
             [
                 "textures/gui/container/inventory.png",
-                256,
-                [
+                256, [
                     [141, 166, 24, 24, "textures/ui/hud_mob_effect_background.png"]
                 ]
             ]
@@ -86,4 +82,4 @@ class DespriteConverter extends AbstractConverter {
     }
 }
 
-export {DespriteConverter};
+export { DespriteConverter };

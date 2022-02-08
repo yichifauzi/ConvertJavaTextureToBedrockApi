@@ -1,5 +1,5 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
-import {DeleteConverter} from "./DeleteConverter.mjs";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { DeleteConverter } from "./DeleteConverter.mjs";
 
 /**
  * Class ArrowConverter
@@ -58,4 +58,4 @@ class ArrowConverter extends AbstractConverter {
     }
 }
 
-export {ArrowConverter};
+export { ArrowConverter };

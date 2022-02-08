@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class BeeConverter
@@ -43,4 +43,4 @@ class BeeConverter extends AbstractConverter {
     }
 }
 
-export {BeeConverter};
+export { BeeConverter };

@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class RenameConverter
@@ -1046,4 +1046,4 @@ class RenameConverter extends AbstractConverter {
     }
 }
 
-export {RenameConverter};
+export { RenameConverter };

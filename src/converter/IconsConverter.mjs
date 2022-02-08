@@ -1,4 +1,4 @@
-import {AbstractConverter} from "@geekcornernpm/convert-base-api";
+import { AbstractConverter } from "@modifiedcommand/convert-base-api";
 
 /**
  * Class IconsConverter
@@ -42,4 +42,4 @@ class IconsConverter extends AbstractConverter {
     }
 }
 
-export {IconsConverter};
+export { IconsConverter };
