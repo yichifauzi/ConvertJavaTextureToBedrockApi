@@ -6,6 +6,7 @@ on:
 
 jobs:
   publish-yarn:
+    environment: publish-package
     runs-on: ubuntu-latest
     permissions:
       contents: read
