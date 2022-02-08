@@ -1,5 +1,23 @@
 # Changelog
 
+## [[v4.1.5]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.5)
+- API version updated to [`v1.0.10`](https://github.com/ModifiedCommand/convert-base-api/releases/tag/v1.0.10)
+
+## [[v4.1.4]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.4)
+- API Version 1.0.9
+
+## [[v4.1.3]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.3)
+- Update [ModifiedCommand/convert-base-api](https://github.com/ModifiedCommand/convert-base-api) to v1.0.8
+
+## [[v4.1.2]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.2)
+- I forgot to update the package.json
+
+## [[v4.1.1]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.1)
+- Reformatted files and change `geekcornernpm` packages into `modifiedcommand` packages
+
+## [v4.0.9 - v4.1.0]
+- Learning to automate the package publish
+
 ## [[v4.0.8]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.0.8)
 - Allow pack version 8 for easy conversion for vanilla tweaks.
 
