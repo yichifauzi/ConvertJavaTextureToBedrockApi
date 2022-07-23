@@ -1,5 +1,8 @@
 # Changelog
 
+## [[v4.1.7]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.7)
+- Publishing Issue, same as 4.1.6
+
 ## [[v4.1.6]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.6)
 - Update [MetadataConverter.mjs](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/commit/e0aff68b45ee9ef87fbef5452ce03b2c54835972) to include more pack versions
 
