@@ -1,5 +1,8 @@
 # Changelog
 
+## [[v4.1.6]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.6)
+- Update [MetadataConverter.mjs](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/commit/e0aff68b45ee9ef87fbef5452ce03b2c54835972) to include more pack versions
+
 ## [[v4.1.5]](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi/releases/tag/v4.1.5)
 - API version updated to [`v1.0.10`](https://github.com/ModifiedCommand/convert-base-api/releases/tag/v1.0.10)
 
