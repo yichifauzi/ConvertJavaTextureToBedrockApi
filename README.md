@@ -22,20 +22,20 @@ It supports the follow Minecraft versions:
 * Add it as a dependency to your `package.json`
 
 ```bash
-yarn add github:ModifiedCommand/ConvertJavaTextureToBedrockApi
+yarn add github:yichifauzi/ConvertJavaTextureToBedrockApi
 ```
 
 or
 
 ```bash
-yarn add @modifiedcommand/convert-minecraft-java-texture-to-bedrock-api
+yarn add @yichifauzi/convert-minecraft-java-texture-to-bedrock-api
 ```
 
 * You can convert your texture packs like
 
 ```javascript
-import {ConsoleLog, Input, LocalFileInputEntry, LocalFileOutput} from "@geekcornernpm/convert-base-api";
-import {ConvertJavaTextureToBedrockApi} from "@geekcornernpm/convert-minecraft-java-texture-to-bedrock-api";
+import {ConsoleLog, Input, LocalFileInputEntry, LocalFileOutput} from "@yichifauzi/convert-base-api";
+import {ConvertJavaTextureToBedrockApi} from "@yichifauzi/convert-minecraft-java-texture-to-bedrock-api";
 
 (async () => {
     let output;
@@ -74,7 +74,7 @@ This project uses the follow main features or external libraries:
 * [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) for offline cache and usage (Web app)
 
 ## Web app
-* Look at the [Source Code](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock) or [Webapp](https://modifiedcommand.github.io/ConvertJavaTextureToBedrock/)
+* Look at the [Source Code](https://github.com/yichifauzi/ConvertJavaTextureToBedrock) or [Webapp](https://yichifauzi.github.io/ConvertJavaTextureToBedrock/)
 
 ## Report issue
-* Use [GitHub issues](https://github.com/ModifiedCommand/ConvertJavaTextureToBedrock/issues/new/choose)
+* Use [GitHub issues](https://github.com/yichifauzi/ConvertJavaTextureToBedrock/issues/new/choose)
